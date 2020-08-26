@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andres Islas",
   "license": "ISC",
   "dependencies": {
     "babel-eslint": "^10.1.0",
