@@ -9,7 +9,7 @@
 .carousel__container {
   white-space: nowrap;
   margin: 70px 0px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 .carousel__container:hover .carousel-item {
   opacity: 0.3;
@@ -18,18 +18,21 @@
   transform: scale(1.5);
   opacity: 1;
 }
-
-
 .carousel::-webkit-scrollbar {
   width: 10px;
   background: rgba(255, 255 ,255 ,0.1);
+  visibility: hidden;
+  border-radius: 10px;
 }
 .carousel::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   border: 2px solid $main-color;
-  visibility: hidden;
+
 }
-.carousel::-webkit-scrollbar-thumb:hover , .carousel::-webkit-scrollbar:hover {
+.carousel::-webkit-scrollbar:hover {
   visibility:visible;
 }
+.carousel::-webkit-scrollbar-corner{
+  visibility: hidden;
+};
